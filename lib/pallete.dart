@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 const TextStyle Heading =
-    TextStyle(fontSize: 65, fontWeight: FontWeight.bold, color: Colors.deepPurple, fontStyle: FontStyle.normal);
+    TextStyle(fontSize: 55, fontWeight: FontWeight.bold, color: Colors.cyanAccent, fontStyle: FontStyle.normal);
 
 const TextStyle Button1=
     TextStyle(fontSize:30, color: Colors.red);

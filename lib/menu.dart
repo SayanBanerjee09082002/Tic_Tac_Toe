@@ -15,7 +15,7 @@ class Menu extends StatelessWidget {
             Container(
                 height: 100,
                 child: Center(child: Text('TIC-TAC-TOE', style: Heading))),
-            SizedBox(height: 400),
+            SizedBox(height: 450),
             ElevatedButton(
               child: Text('PLAY', style: Button1),
               style: ElevatedButton.styleFrom(
@@ -24,7 +24,7 @@ class Menu extends StatelessWidget {
                 Navigator.push(
                     context, MaterialPageRoute(builder: (context) => Player()));
               },
-            )
+            ),
           ])))
     ]);
   }
